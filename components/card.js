@@ -58,7 +58,7 @@ const Card = () => {
             <div className="recent w-[50vw] p-10 rounded-xl bg2">
                 <h1 className='text-4xl text-white'>Recent Project:</h1>
                 <br />
-                <p className='w-[80%] text-lg text-white'>Developed a website for STEAM-Nexus&apos;25,a STEM event by Beaconhouse College Programme Potohar Campus. I used the technologies listed above to give the users an immersive experience by using components and animations!</p>
+                <p className='w-[80%] text-lg text-white'>Developed a website for STEAM-Nexus&apos;25,a STEM event by Beaconhouse College Programme Potohar Campus. I used the technologies listed to give the users an immersive experience by using components and animations!</p>
                 <div className='mx-auto w-fit mt-4'>
             <a target='_blank' href="https://steam-nexus.vercel.app"><button className='text-white border-2 border-blue-900 text-center align-middle p-2
             hover:rounded-xl hover:bg-blue-900 hover:transition-all transition-all hover:font-bold text-xl'>Visit the site</button></a>
