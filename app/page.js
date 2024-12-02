@@ -4,10 +4,7 @@ import "./globals.css"
 export default function Home() {
   return (
     <>
-    <div className="md:hidden bg h-full ">
-    <Main/>
-    </div>
-    <div className="max-md:hidden bg2 h-full ">
+    <div className=" bg min-h-[100vh] ">
     <Main/>
     </div>
     </>

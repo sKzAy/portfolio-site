@@ -1,5 +1,6 @@
 "use client"
 import React from 'react'
+import "@/app/globals.css"
 // import { useState, useRef } from 'react'
 
 const Card = () => {
@@ -52,12 +53,12 @@ const Card = () => {
         </div>
       </div>
       </div>
-      <div className='max-md:hidden mt-4'>
-        <div className='container flex justify-evenly align-middle gap-[2vw]  mx-auto'>
-            <div className="recent bg-slate-800 w-[50vw] p-10 rounded-xl bg">
-                <h1 className='text-5xl text-white'>Recent Project:</h1>
+      <div className='max-md:hidden mt-2 mb-4'>
+        <div className='container flex justify-evenly align-middle gap-[2vw] mx-auto'>
+            <div className="recent w-[50vw] p-10 rounded-xl bg2">
+                <h1 className='text-4xl text-white'>Recent Project:</h1>
                 <br />
-                <p className='w-[80%] text-xl text-white'>Developed a website for STEAM-Nexus&apos;25,a STEM event by Beaconhouse College Programme Potohar Campus. I used the technologies listed above to give the users an immersive experience by using components and animations!</p>
+                <p className='w-[80%] text-lg text-white'>Developed a website for STEAM-Nexus&apos;25,a STEM event by Beaconhouse College Programme Potohar Campus. I used the technologies listed above to give the users an immersive experience by using components and animations!</p>
                 <div className='mx-auto w-fit mt-4'>
             <a target='_blank' href="https://steam-nexus.vercel.app"><button className='text-white border-2 border-blue-900 text-center align-middle p-2
             hover:rounded-xl hover:bg-blue-900 hover:transition-all transition-all hover:font-bold text-xl'>Visit the site</button></a>
@@ -65,16 +66,16 @@ const Card = () => {
             </div>
            
             <div className="others flex flex-col">
-                <div className='bg p-10 rounded-xl'>
-            <h1 className='text-3xl text-white'>Technologies:</h1>
+                <div className='bg2 p-10 rounded-xl'>
+            <h1 className='text-3xl text-white '>Technologies:</h1>
             <ul>
-                <li className='font-bold text-xl text-orange-500 pl-5'>HTML</li>
-                <li className='font-bold text-xl text-blue-600 pl-5'>Tailwind CSS</li>
-                <li className='font-bold text-xl text-yellow-500 pl-5'>JavaScript</li>
-                <li className='font-bold text-xl text-[rgb(250,250,250)] pl-5'>Next-JS</li>
+                <li className='font-bold text text-orange-500 pl-5'>HTML</li>
+                <li className='font-bold text text-blue-600 pl-5'>Tailwind CSS</li>
+                <li className='font-bold text text-yellow-500 pl-5'>JavaScript</li>
+                <li className='font-bold text text-[rgb(250,250,250)] pl-5'>Next-JS</li>
             </ul>
             </div>
-                <div className="touch w-[25vw] bg rounded-xl mt-2  p-10">
+                <div className="touch w-[25vw] bg2 rounded-xl mt-2 p-10">
                     <h1 className='text-white text-3xl mb-4'>Let&apos;s get in touch!</h1>
                     <div className='mx-auto w-fit'>
             <a  href="mailto:kazimaliacad@gmail.com"><button className='text-white border-2 border-blue-900 text-center align-middle p-2
