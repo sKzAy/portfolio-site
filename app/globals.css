@@ -2,20 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+html,body{
+  height: 100%;
+}
+.bg{
+  background-color: #001424;
+  opacity: 1;
+  background-image: radial-gradient(#00258f 1.05px, #001424 1.05px);
+  background-size: 21px 21px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.bg2{
+  background-color: #00003b;
+opacity: 1;
+background-image: radial-gradient(circle at center center, #0009ad, #00003b), repeating-radial-gradient(circle at center center, #0009ad, #0009ad, 28px, transparent 56px, transparent 28px);
+background-blend-mode: multiply;
 }
